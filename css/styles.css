@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  /*  Esto para centrar los divs: */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  height: 4em;
+  width: 4em;
+  margin: 1em;
+}
+
+#box1 {
+  background-color: blue;
+  transition: 1s;
+}
+#box2 {
+  background-color: rgb(20, 193, 54);
+}
+#box3 {
+  background-color: rgb(231, 12, 12);
+}
+#box4 {
+  background-color: rgb(180, 16, 226);
+  transition: 1s;
+}
+
+#box1:hover {
+  border-radius: 25%;
+  transition: 1s;
+  cursor: pointer;
+}
+#box4:hover {
+  height: 2em;
+  transition: 1s;
+  cursor: pointer;
+}
